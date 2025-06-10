@@ -1,0 +1,10 @@
+[package]
+name = "strength_calc_elements"
+version = "0.0.1"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+sprs = "0.11"
+strength_calc_core = { path = "../core" }
+strength_calc_materials = { path = "../materials" }
