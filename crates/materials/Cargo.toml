@@ -1,0 +1,9 @@
+[package]
+name = "strength_calc_materials"
+version = "0.0.1"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+strength_calc_core = { path = "../core" }

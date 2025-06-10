@@ -1,0 +1,9 @@
+[package]
+name = "strength_calc_solver"
+version = "0.0.1"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+nalgebra = { version = "0.33.2", features = ["serde-serialize"] }
+sprs = "0.11"

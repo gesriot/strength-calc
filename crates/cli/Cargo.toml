@@ -1,0 +1,12 @@
+[package]
+name = "strength_calc_cli"
+version = "0.0.1"
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+strength_calc_core = { path = "../core" }
+strength_calc_elements = { path = "../elements" }
+strength_calc_materials = { path = "../materials" }
+strength_calc_solver = { path = "../solver" }
