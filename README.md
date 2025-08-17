@@ -3,7 +3,7 @@
 <span><img src="https://img.shields.io/badge/Rust-2024_Edition-brightgreen" alt="Rust Edition" style="display:inline-block;vertical-align:middle"> <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" style="display:inline-block;vertical-align:middle"></span>
 
 
-**Strength-Calc** – это прототип вычислительного ядра для решения задач механики деформируемого твердого тела методом конечных элементов (МКЭ).
+**Strength-Calc** – прототип вычислительного ядра для решения задач механики деформируемого твердого тела методом конечных элементов (МКЭ)
 
 ## Особенности
 
@@ -32,7 +32,7 @@ strength-calc/
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/ваш-username/strength-calc.git
+git clone https://github.com/gesriot/strength-calc.git
 cd strength-calc
 
 cargo run -p strength_calc_cli -- demo
